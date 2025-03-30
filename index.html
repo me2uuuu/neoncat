@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NEONCAT SYSTEM</title>
+  <style>
+    body {
+      margin: 0;
+      background: #0a0a0a;
+      color: #fff;
+      font-family: 'Courier New', monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 4px;
+    }
+    h2 {
+      font-size: 1rem;
+      font-weight: normal;
+      color: #888;
+      margin-bottom: 40px;
+    }
+    .glow {
+      width: 320px;
+      height: 160px;
+      background: radial-gradient(circle, rgba(0,150,255,0.4), transparent 60%);
+      border-radius: 20px;
+      margin-bottom: 30px;
+      animation: pulse 3s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0% { opacity: 0.4; }
+      50% { opacity: 0.9; }
+      100% { opacity: 0.4; }
+    }
+    .small-text {
+      font-size: 0.8rem;
+      color: #aaa;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .enter-button {
+      background: transparent;
+      border: 1px solid #00ffff;
+      color: #00ffff;
+      padding: 10px 24px;
+      font-family: 'Courier New', monospace;
+      font-size: 0.95rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+    .enter-button:hover {
+      background: rgba(0, 255, 255, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>N-cat</h1>
+  <h2>PROJECT NEONCAT_</h2>
+
+  <div class="glow"></div>
+
+  <div class="small-text">
+    :: SENSORY TYPE: INTUITIVE PERCEIVER<br />
+    흐름을 읽고, 패턴을 감지하며<br />
+    당신은 보이지 않는 움직임을 추적합니다.
+  </div>
+
+  <div class="small-text">
+    CYBERPORTAL ACCESS KEY<br />
+    Only accessible to sensory agents.<br />
+    [STATUS: ACCESS GRANTED] :: INITIATING NEURAL LINK...
+  </div>
+
+  <a href="card.html">
+    <button class="enter-button">[ ENTER NEURO DRAW ]</button>
+  </a>
+</body>
+</html>
